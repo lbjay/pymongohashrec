@@ -1,22 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import os
-import sys
-
-
 try:
     from setuptools import setup
 except ImportError:
     from distutils.core import setup
 
-requirements = [
-    # TODO: put package requirements here
-]
+requirements = ['pymongo', 'pytz'] 
 
-test_requirements = [
-    # TODO: put package test requirements here
-]
+test_requirements = requirements + []
 
 setup(
     name='pymongohashrec',
